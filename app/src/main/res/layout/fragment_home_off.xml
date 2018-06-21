@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btOffStatus"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/selelecter_color"
+        android:text="สถานะการแจ้งเหตุ"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/imageReEmer"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.8"
+            android:background="@drawable/selelecter_received"
+            android:scaleType="centerCrop" />
+
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2">
+
+            <Button
+                android:id="@+id/imageOffReceive"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/selelecter_receive"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:id="@+id/notification_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|right"
+                android:background="@android:drawable/ic_notification_overlay"
+                android:text="00"
+                android:textColor="#FFF"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:elevation="100dp"/>
+
+        </FrameLayout>
+
+
+
+
+
+        <Button
+            android:id="@+id/imageOffEmer"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.8"
+            android:background="@drawable/selelecter_off_emergency"
+            android:scaleType="centerCrop" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.8"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/imageOffNews"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/selelecter_news"
+            android:scaleType="centerCrop" />
+
+        <Button
+            android:id="@+id/imageOffDetail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/selelecter_detail"
+            android:scaleType="centerCrop" />
+    </LinearLayout>
+
+
+</LinearLayout>

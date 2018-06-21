@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/ud_firstname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="ชื่อ"
+                android:imeOptions="actionNext"
+                android:inputType="text"
+                android:maxLines="1"/>
+
+            <EditText
+                android:id="@+id/ud_lastname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="นามสกุล"
+                android:imeOptions="actionNext"
+                android:inputType="text"
+                android:maxLines="1"/>
+
+            <EditText
+                android:id="@+id/ud_tel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:hint="เบอร์โทรศัพท์"
+                android:imeOptions="actionNext"
+                android:inputType="number"
+                android:maxLines="1"/>
+
+            <EditText
+                android:id="@+id/ud_teletc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:hint="เบอร์โทรศัพท์ญาติ"
+                android:imeOptions="actionNext"
+                android:inputType="number"
+                android:maxLines="1"/>
+
+            <EditText
+                android:id="@+id/ud_personalid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:hint="เลขประจำตัวประชาชน"
+                android:imeOptions="actionNext"
+                android:inputType="number"
+                android:maxLines="1"/>
+
+            <EditText
+                android:id="@+id/ud_birthday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:hint="วัน/เดือน/ปีเกิด"
+                android:imeOptions="actionNext"
+                android:inputType="text"
+                android:maxLines="1"/>
+
+            <EditText
+                android:id="@+id/ud_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:hint="ที่อยู่"
+                android:imeOptions="actionNext"
+                android:inputType="text"
+                android:maxLines="1"/>
+
+            <EditText
+                android:id="@+id/ud_disease"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:hint="โรคประจำตัว"
+                android:imeOptions="actionNext"
+                android:inputType="text"
+                android:maxLines="1"/>
+
+            <EditText
+                android:id="@+id/ud_bloodgroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:hint="กรุ๊ปเลือด"
+                android:imeOptions="actionNext"
+                android:inputType="text"
+                android:maxLines="1"/>
+
+            <EditText
+                android:id="@+id/ud_allergic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:hint="ยาที่แพ้"
+                android:imeOptions="actionNext"
+                android:inputType="text"
+                android:maxLines="1"/>
+
+            <EditText
+                android:id="@+id/ud_security"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:hint="สิทธิประกันสังคม"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:maxLines="1"/>
+
+            <Button
+                android:id="@+id/bteditcommit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:background="#51f554"
+                android:text="ยืนยันการแก้ไข"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="ชื่อ-นามสกุล"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:id="@+id/tv_sex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="เพศ"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:id="@+id/tv_tel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="เบอร์โทรศัพท์"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_teletc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="เบอร์โทรศัพท์ญาติ"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_personalid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="เลขประจำตัวประชาชน"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_birthday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="วััน/เดือน/ปีเกิด"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="ที่อยู่"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_disease"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="โรคประจำตัว"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_bloodgroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="กรุ๊ปเลือด"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_allergic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="ยาที่แพ้"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_security"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="สิทธิประกันสังคม"
+                android:textSize="20sp" />
+
+
+            <Button
+                android:id="@+id/btedit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#51f554"
+                android:text="แก้ไขข้อมูล"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

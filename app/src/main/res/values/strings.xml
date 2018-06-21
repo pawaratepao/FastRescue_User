@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">FastRescue_User</string>
+    <string name="title_activity_maps">Map</string>
+    <string-array name="emer">
+        <item>เหตุจากการจราจร</item>
+        <item>อัคคีภัย</item>
+        <item>วาตภัย</item>
+        <item>งมของกลาง,ร่างผู้เสียชีวิต</item>
+        <item>ตกจากที่สูง</item>
+        <item>เหตุจากไฟฟ้า</item>
+        <item>อยู่ระหว่างวัตถุ</item>
+        <item>สัตว์เข้าบ้าน</item>
+        <item>เหตุจากสารพิษ</item>
+        <item>อุบัติเหตุอื่น ๆ</item>
+    </string-array>
+    <string-array name="bloodgroup">
+        <item>A</item>
+        <item>B</item>
+        <item>O</item>
+        <item>AB</item>
+    </string-array>
+</resources>
